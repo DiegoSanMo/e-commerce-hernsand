@@ -1,12 +1,16 @@
 import React from 'react'
 import Directorys from '../../components/Directory/Directory'
-import Header from '../../components/Header/Header'
-
+import Footer from '../../components/Footer/Footer'
 const HomePage = () => {
   return (
     <>
-      <Header />
       <Directorys />
+      <br className="my-5"/>
+      <br className="my-5"/>
+      <br className="my-5"/>
+      <br className="my-5"/>
+      
+      <Footer/>
     </>
   )
 }
